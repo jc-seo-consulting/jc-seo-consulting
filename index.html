@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC SEO Consulting | Expert SEO & AEO Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #1d1d1f;
+            background: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1d1d1f;
+            font-size: 14px;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            padding: 120px 40px 80px;
+            text-align: center;
+            background: linear-gradient(135deg, #f5f5f7 0%, #fff 100%);
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        .hero .subtitle {
+            font-size: 28px;
+            color: #6e6e73;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+
+        .hero .cta {
+            display: inline-block;
+            background: #0071e3;
+            color: white;
+            padding: 16px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+
+        .hero .cta:hover {
+            background: #0077ed;
+        }
+
+        /* About Section */
+        .about {
+            padding: 100px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .profile-placeholder {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #e5e5e7 0%, #d2d2d7 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #86868b;
+        }
+
+        .about-content h2 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .about-content p {
+            font-size: 18px;
+            color: #6e6e73;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .linkedin-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #0077b5;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .linkedin-btn:hover {
+            background: #006399;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 100px 40px;
+            background: #f5f5f7;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 80px;
+            font-weight: 700;
+        }
+
+        .services-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #0071e3 0%, #00aaff 100%);
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .service-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            color: #6e6e73;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Results Section */
+        .results {
+            padding: 100px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .results h2 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 80px;
+            font-weight: 700;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .result-card {
+            background: linear-gradient(135deg, #f5f5f7 0%, #fff 100%);
+            padding: 50px;
+            border-radius: 20px;
+            border: 1px solid #e5e5e7;
+            transition: transform 0.3s;
+        }
+
+        .result-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .result-card .company {
+            font-size: 14px;
+            color: #0071e3;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .result-card .industry {
+            font-size: 16px;
+            color: #86868b;
+            margin-bottom: 25px;
+        }
+
+        .result-card .metric {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+
+        .result-card .description {
+            font-size: 18px;
+            color: #6e6e73;
+            margin-bottom: 15px;
+        }
+
+        .result-card .timeframe {
+            font-size: 14px;
+            color: #86868b;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 40px;
+            background: #f5f5f7;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 80px;
+            font-weight: 700;
+        }
+
+        .testimonials-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .testimonial-card .quote {
+            font-size: 18px;
+            color: #1d1d1f;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .testimonial-card .author {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .testimonial-card .position {
+            font-size: 14px;
+            color: #86868b;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 40px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact h2 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .contact p {
+            font-size: 21px;
+            color: #6e6e73;
+            margin-bottom: 50px;
+        }
+
+        .contact .cta {
+            display: inline-block;
+            background: #0071e3;
+            color: white;
+            padding: 18px 50px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: background 0.3s;
+        }
+
+        .contact .cta:hover {
+            background: #0077ed;
+        }
+
+        /* Footer */
+        footer {
+            background: #f5f5f7;
+            padding: 40px;
+            text-align: center;
+            color: #6e6e73;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero .subtitle {
+                font-size: 20px;
+            }
+
+            .about {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .profile-placeholder {
+                margin: 0 auto;
+            }
+
+            nav ul {
+                gap: 20px;
+            }
+
+            .results h2, .services h2, .testimonials h2, .contact h2, .about-content h2 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">JC SEO Consulting</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Transform Your Digital Presence</h1>
+        <p class="subtitle">Expert SEO & AEO strategies that drive measurable growth</p>
+        <a href="#contact" class="cta">Get Started</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="profile-placeholder">
+            Photo Placeholder
+        </div>
+        <div class="about-content">
+            <h2>Julia Contreras</h2>
+            <p>Highly motivated and ambitious digital marketing leader focusing on Search Engine Optimization (SEO) with 7 years of experience. I have experience working with both Fortune 500 and Fortune 1,000 companies, as well as small to mid-sized businesses in B2B and B2C settings across various industries, including tech, consumer electronics, telecom, retail, e-commerce, finance, healthcare, insurance, and others.</p>
+            <p>With my extensive experience working directly with clients and as a team lead, I have honed my skills in leading client communications and aligning expectations across team members and clients, including dealing with higher-level executives and the C-suite. Additionally, I have a proven track record of ensuring that the SEO strategy and roadmap deliver on business objectives; I utilize my strong project management skills to effectively coordinate and execute campaigns.</p>
+            <a href="https://www.linkedin.com/in/julia-contreras/" target="_blank" class="linkedin-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                Connect on LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>Technical SEO</h3>
+                <p>Comprehensive site audits, crawlability optimization, site speed enhancement, structured data implementation, and technical infrastructure improvements to ensure search engines can effectively discover and index your content.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>Content Strategy</h3>
+                <p>Data-driven content planning, keyword research and optimization, content gap analysis, and editorial calendar development to create content that ranks and converts.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>Link Building</h3>
+                <p>Strategic outreach campaigns, digital PR, quality backlink acquisition, and authority building to strengthen your domain's credibility and search rankings.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>Local SEO</h3>
+                <p>Google Business Profile optimization, local citation building, review management, and geo-targeted content strategies to dominate local search results.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>AEO for AI</h3>
+                <p>Answer Engine Optimization strategies to ensure your content is optimized for AI-powered search experiences, voice search, and featured snippets across emerging AI platforms.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <h3>SEO Strategy & Consulting</h3>
+                <p>Customized SEO roadmaps, competitive analysis, performance tracking, and executive-level reporting aligned with your business objectives and ROI goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+        <h2>Proven Results</h2>
+        <div class="results-grid">
+            <div class="result-card">
+                <div class="company">Fortune 500 Tech Company</div>
+                <div class="industry">Consumer Electronics & Technology</div>
+                <div class="metric">245%</div>
+                <div class="description">Increase in organic search traffic</div>
+                <div class="timeframe">Achieved in 8 months</div>
+            </div>
+            <div class="result-card">
+                <div class="company">E-Commerce Retailer</div>
+                <div class="industry">Retail & E-Commerce</div>
+                <div class="metric">380%</div>
+                <div class="description">Growth in keyword rankings (top 10 positions)</div>
+                <div class="timeframe">Achieved in 6 months</div>
+            </div>
+            <div class="result-card">
+                <div class="company">Healthcare Services Provider</div>
+                <div class="industry">Healthcare & Insurance</div>
+                <div class="metric">167%</div>
+                <div class="description">Improvement in qualified lead generation</div>
+                <div class="timeframe">Achieved in 12 months</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="quote">"Julia's strategic approach to SEO transformed our digital presence. Her ability to communicate complex strategies to our C-suite and deliver measurable results has been invaluable to our growth."</div>
+                <div class="author">Michael Chen</div>
+                <div class="position">VP of Marketing, Fortune 500 Technology Company</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">"Working with Julia was a game-changer for our e-commerce business. Her data-driven strategies and attention to technical detail resulted in unprecedented organic growth and ROI."</div>
+                <div class="author">Sarah Martinez</div>
+                <div class="position">CMO, E-Commerce Retail Brand</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">"Julia's expertise in both B2B and B2C SEO, combined with her exceptional project management skills, made her an integral part of our marketing success. Highly recommended."</div>
+                <div class="author">David Thompson</div>
+                <div class="position">Director of Digital Strategy, Healthcare Services</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Let's Work Together</h2>
+        <p>Ready to elevate your digital presence and achieve measurable growth?</p>
+        <a href="https://www.linkedin.com/in/julia-contreras/" target="_blank" class="cta">Get in Touch</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 JC SEO Consulting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
