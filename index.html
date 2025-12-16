@@ -732,7 +732,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 JC SEO Consulting. All rights reserved.</p>
+        <p>&copy; 2024 JC SEO Consulting. All rights reserved.</p>
     </footer>
 
     <script>
@@ -766,12 +766,34 @@
                 message: document.getElementById('message').value
             };
             
-            // Log form data (in production, you'd send this to a server)
-            console.log('Form submitted:', formData);
+            // Disable submit button to prevent double submission
+            const submitBtn = event.target.querySelector('.submit-btn');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
             
-            // Show success message
-            document.getElementById('contactForm').style.display = 'none';
-            document.getElementById('successMessage').classList.add('active');
+            // Send email using Formspree
+            fetch('https://formspree.io/f/xjkvekge', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Show success message
+                    document.getElementById('contactForm').style.display = 'none';
+                    document.getElementById('successMessage').classList.add('active');
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error sending your message. Please try again or contact us directly at julia.cointa@gmail.com');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit';
+            });
         }
 
         // Close modal when clicking outside
