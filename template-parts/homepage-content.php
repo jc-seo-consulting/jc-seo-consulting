@@ -1,4 +1,4 @@
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav>
         <div class="container">
             <div class="logo">JC SEO Consulting</div>
@@ -25,8 +25,8 @@
         </div>
         <div class="about-content">
             <h2>Julia Contreras</h2>
-            <p>Highly motivated and ambitious digital marketing leader focusing on Search Engine Optimization (SEO) with 7 years of experience. I have experience working with both Fortune 500 and Fortune 1,000 companies, as well as small to mid-sized businesses in B2B and B2C settings across various industries, including tech, consumer electronics, telecom, retail, e-commerce, finance, healthcare, insurance, and others.</p>
-            <p>With my extensive experience working directly with clients and as a team lead, I have honed my skills in leading client communications and aligning expectations across team members and clients, including dealing with higher-level executives and the C-suite. Additionally, I have a proven track record of ensuring that the SEO strategy and roadmap deliver on business objectives; I utilize my strong project management skills to effectively coordinate and execute campaigns.</p>
+            <p>I'm an SEO consultant with 10 years of experience helping brands grow their organic visibility — from leading SEO strategy at a global digital marketing agency to running my own independent practice since 2021. These days, my focus has expanded beyond traditional search: helping B2B and enterprise clients show up not just in Google, but in ChatGPT, Perplexity, Google AI Overviews, and other AI-powered platforms.</p>
+            <p>I specialize in AI/LLM visibility optimization (AEO/AIO), technical SEO, content strategy, and E-E-A-T — building strategies grounded in real data and reporting that executive teams can actually act on. Whether it's auditing a site's technical health, building out structured data and schema, or tracking share-of-voice against competitors in AI search results, my approach stays the same: clear priorities, measurable outcomes, no fluff.</p>
             <a href="https://www.linkedin.com/in/julia-contreras/" target="_blank" class="linkedin-btn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
@@ -42,33 +42,33 @@
         <div class="services-grid">
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>Technical SEO</h3>
-                <p>Comprehensive site audits, crawlability optimization, site speed enhancement, structured data implementation, and technical infrastructure improvements to ensure search engines can effectively discover and index your content.</p>
+                <h3>01 — AI Visibility Optimization (AEO/AIO)</h3>
+                <p>Get your brand cited and recommended in ChatGPT, Perplexity, Google AI Overviews, and Copilot.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>Content Strategy</h3>
-                <p>Data-driven content planning, keyword research and optimization, content gap analysis, and editorial calendar development to create content that ranks and converts.</p>
+                <h3>02 — Search Engine Optimization (SEO)</h3>
+                <p>Improve rankings, organic traffic, and visibility in Google and Bing.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>Link Building</h3>
-                <p>Strategic outreach campaigns, digital PR, quality backlink acquisition, and authority building to strengthen your domain's credibility and search rankings.</p>
+                <h3>03 — Technical SEO & Schema</h3>
+                <p>Site audits, structured data, and the technical foundation search engines and AI need to find and trust your content.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>Local SEO</h3>
-                <p>Google Business Profile optimization, local citation building, review management, and geo-targeted content strategies to dominate local search results.</p>
+                <h3>04 — Content Strategy & E-E-A-T</h3>
+                <p>Content that builds topical authority, earns trust, and gets cited — by readers and AI alike.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>AEO for AI</h3>
-                <p>Answer Engine Optimization strategies to ensure your content is optimized for AI-powered search experiences, voice search, and featured snippets across emerging AI platforms.</p>
+                <h3>05 — Competitive & Share-of-Voice Analysis</h3>
+                <p>Track exactly where you stand against competitors in search and AI results, with a roadmap to close the gap.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>SEO Strategy & Consulting</h3>
-                <p>Customized SEO roadmaps, competitive analysis, performance tracking, and executive-level reporting aligned with your business objectives and ROI goals.</p>
+                <h3>06 — SEO Strategy & Executive Reporting</h3>
+                <p>Custom roadmaps and reporting tied to real business outcomes, built for stakeholders and the C-suite.</p>
             </div>
         </div>
     </section>
@@ -78,47 +78,25 @@
         <h2>Proven Results</h2>
         <div class="results-grid">
             <div class="result-card">
-                <div class="company">Fortune 500 Tech Company</div>
-                <div class="industry">Consumer Electronics & Technology</div>
-                <div class="metric" data-target="245">0%</div>
-                <div class="description">Increase in organic search traffic</div>
-                <div class="timeframe">Achieved in 8 months</div>
+                <div class="company">[Client / Industry]</div>
+                <div class="industry">[Industry detail]</div>
+                <div class="metric" data-target="0">0%</div>
+                <div class="description">[What improved — e.g. increase in organic traffic]</div>
+                <div class="timeframe">[Timeframe — e.g. Achieved in X months]</div>
             </div>
             <div class="result-card">
-                <div class="company">E-Commerce Retailer</div>
-                <div class="industry">Retail & E-Commerce</div>
-                <div class="metric" data-target="380">0%</div>
-                <div class="description">Growth in keyword rankings (top 10 positions)</div>
-                <div class="timeframe">Achieved in 6 months</div>
+                <div class="company">[Client / Industry]</div>
+                <div class="industry">[Industry detail]</div>
+                <div class="metric" data-target="0">0%</div>
+                <div class="description">[What improved]</div>
+                <div class="timeframe">[Timeframe]</div>
             </div>
             <div class="result-card">
-                <div class="company">Healthcare Services Provider</div>
-                <div class="industry">Healthcare & Insurance</div>
-                <div class="metric" data-target="167">0%</div>
-                <div class="description">Improvement in qualified lead generation</div>
-                <div class="timeframe">Achieved in 12 months</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>Client Testimonials</h2>
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <div class="quote">"Julia's strategic approach to SEO transformed our digital presence. Her ability to communicate complex strategies to our C-suite and deliver measurable results has been invaluable to our growth."</div>
-                <div class="author">Michael Chen</div>
-                <div class="position">VP of Marketing, Fortune 500 Technology Company</div>
-            </div>
-            <div class="testimonial-card">
-                <div class="quote">"Working with Julia was a game-changer for our e-commerce business. Her data-driven strategies and attention to technical detail resulted in unprecedented organic growth and ROI."</div>
-                <div class="author">Sarah Martinez</div>
-                <div class="position">CMO, E-Commerce Retail Brand</div>
-            </div>
-            <div class="testimonial-card">
-                <div class="quote">"Julia's expertise in both B2B and B2C SEO, combined with her exceptional project management skills, made her an integral part of our marketing success. Highly recommended."</div>
-                <div class="author">David Thompson</div>
-                <div class="position">Director of Digital Strategy, Healthcare Services</div>
+                <div class="company">[Client / Industry]</div>
+                <div class="industry">[Industry detail]</div>
+                <div class="metric" data-target="0">0%</div>
+                <div class="description">[What improved]</div>
+                <div class="timeframe">[Timeframe]</div>
             </div>
         </div>
     </section>
@@ -127,141 +105,15 @@
     <section id="contact" class="contact">
         <h2>Let's Work Together</h2>
         <p>Ready to elevate your digital presence and achieve measurable growth?</p>
-        <button class="cta" onclick="openModal()">Get in Touch</button>
+        <a href="/contact/" class="cta">Get in Touch</a>
     </section>
-
-    <!-- Contact Modal -->
-    <div id="contactModal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal" onclick="closeModal()">&times;</button>
-            
-            <div id="contactForm">
-                <h3>Get in Touch</h3>
-                <p class="subtitle-text">Fill out the form below and we'll get back to you within 24 hours.</p>
-                
-                <form onsubmit="handleSubmit(event)">
-                    <div class="form-group">
-                        <label for="firstName">First Name *</label>
-                        <input type="text" id="firstName" name="firstName" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="lastName">Last Name *</label>
-                        <input type="text" id="lastName" name="lastName" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="company">Company Name *</label>
-                        <input type="text" id="company" name="company" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">How can we help? (Optional)</label>
-                        <textarea id="message" name="message" placeholder="Tell us about your project or goals..."></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">Submit</button>
-                </form>
-            </div>
-            
-            <div id="successMessage" class="success-message">
-                <h3>Thank You!</h3>
-                <p>Your message has been received. We'll be in touch soon.</p>
-                <button class="cta" onclick="closeModal()">Close</button>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 JC SEO Consulting. All rights reserved.</p>
+        <p>&copy; 2026 JC SEO Consulting. All rights reserved.</p>
     </footer>
 
     <script>
-        function openModal() {
-            document.getElementById('contactModal').classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeModal() {
-            document.getElementById('contactModal').classList.remove('active');
-            document.body.style.overflow = 'auto';
-            
-            // Reset form and messages after closing
-            setTimeout(() => {
-                document.getElementById('contactForm').style.display = 'block';
-                document.getElementById('successMessage').classList.remove('active');
-                document.querySelector('form').reset();
-            }, 300);
-        }
-
-        function handleSubmit(event) {
-            event.preventDefault();
-            
-            // Get form data
-            const formData = {
-                firstName: document.getElementById('firstName').value,
-                lastName: document.getElementById('lastName').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                company: document.getElementById('company').value,
-                message: document.getElementById('message').value
-            };
-            
-            // Disable submit button to prevent double submission
-            const submitBtn = event.target.querySelector('.submit-btn');
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Sending...';
-            
-            // Send email using Formspree
-            fetch('https://formspree.io/f/xjkvekge', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            })
-            .then(response => {
-                if (response.ok) {
-                    // Show success message
-                    document.getElementById('contactForm').style.display = 'none';
-                    document.getElementById('successMessage').classList.add('active');
-                } else {
-                    throw new Error('Form submission failed');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('There was an error sending your message. Please try again or contact us directly at julia.cointa@gmail.com');
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit';
-            });
-        }
-
-        // Close modal when clicking outside
-        document.getElementById('contactModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeModal();
-            }
-        });
-
-        // Close modal on Escape key
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                closeModal();
-            }
-        });
-
         // Animated counter for results
         function animateCounter(element, target, duration = 2000) {
             const start = 0;
