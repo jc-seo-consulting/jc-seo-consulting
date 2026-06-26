@@ -94,6 +94,30 @@ nav a:hover {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+}
+
+.sprig {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.sprig-hero {
+    top: 40px;
+    right: 5%;
+    color: var(--sage);
+    transform: rotate(8deg);
+}
+
+.sprig-cta {
+    bottom: 30px;
+    left: 6%;
+    color: var(--paper);
+    opacity: 0.35;
+    transform: rotate(-170deg);
 }
 
 .hero h1 {
@@ -340,6 +364,7 @@ nav a:hover {
     text-align: center;
     padding: 100px 40px;
     max-width: 100%;
+    position: relative;
 }
 
 .contact h2 {
@@ -400,5 +425,9 @@ footer {
 
     .results h2, .services h2, .recommendations h2, .contact h2, .about-content h2 {
         font-size: 30px;
+    }
+
+    .sprig {
+        display: none;
     }
 }
