@@ -58,7 +58,7 @@
             <h2>Julia Contreras</h2>
             <p>I'm an SEO consultant with 10 years of experience helping brands grow their organic visibility, from leading SEO strategy at a global digital marketing agency to running my own independent practice since 2021. These days, my focus has expanded beyond traditional search: helping brands of every size, from small businesses to global enterprises, show up not just in Google, but in ChatGPT, Perplexity, Google AI Overviews, and other AI-powered platforms.</p>
             <p>I specialize in AI/LLM visibility optimization (AEO/AIO), technical SEO, content strategy, and E-E-A-T, building strategies grounded in real data and reporting you can actually act on. Whether it's auditing a site's technical health, building out structured data and schema, or tracking share-of-voice against competitors in AI search results, my approach stays the same: clear priorities, measurable outcomes, no fluff.</p>
-            <a href="/about/" class="get-to-know-link">Get to know me more &rarr;</a>
+            <a href="/about/" class="get-to-know-link">Get to know more about me &rarr;</a>
             <div class="about-footer-row">
                 <a href="https://www.linkedin.com/in/julia-contreras/" target="_blank" class="linkedin-icon" aria-label="Connect on LinkedIn">in</a>
             </div>
