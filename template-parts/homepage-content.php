@@ -13,6 +13,23 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <svg class="sprig sprig-hero" viewBox="0 0 100 240" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 230 Q 47 120 50 10" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M50 200 Q 34 193 20 185" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 200 Q 66 193 80 185" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 175 Q 31 167 15 158" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 175 Q 69 167 85 158" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 150 Q 33 143 20 135" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 150 Q 67 143 80 135" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 125 Q 36 119 25 112" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 125 Q 64 119 75 112" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 100 Q 38 95 28 90" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 100 Q 62 95 72 90" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 75 Q 40 71 32 67" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 75 Q 60 71 68 67" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 50 Q 42 47 36 44" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 50 Q 58 47 64 44" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        </svg>
         <span class="eyebrow">SEO &amp; AI VISIBILITY CONSULTANT</span>
         <h1>Helping brands get found — by people and by AI.</h1>
         <p class="subtitle">Independent SEO consultant specializing in AI visibility (AEO/AIO), technical SEO, and content strategy — for businesses of every size.</p>
@@ -114,6 +131,23 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
+        <svg class="sprig sprig-cta" viewBox="0 0 100 240" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 230 Q 47 120 50 10" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M50 200 Q 34 193 20 185" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 200 Q 66 193 80 185" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 175 Q 31 167 15 158" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 175 Q 69 167 85 158" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 150 Q 33 143 20 135" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 150 Q 67 143 80 135" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 125 Q 36 119 25 112" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 125 Q 64 119 75 112" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 100 Q 38 95 28 90" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 100 Q 62 95 72 90" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 75 Q 40 71 32 67" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 75 Q 60 71 68 67" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 50 Q 42 47 36 44" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M50 50 Q 58 47 64 44" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        </svg>
         <h2>Let's work together</h2>
         <p>Ready to elevate your digital presence and AI visibility?</p>
         <a href="/contact/" class="cta">Get in Touch</a>
