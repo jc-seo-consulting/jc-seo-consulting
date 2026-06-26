@@ -148,7 +148,7 @@ nav a:hover {
     transform: rotate(-170deg);
 }
 
-.hero h1 {
+.hero h2 {
     font-family: var(--font-display);
     font-size: 56px;
     font-weight: 600;
@@ -435,7 +435,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .hero h1 {
+    .hero h2 {
         font-size: 36px;
     }
 
