@@ -16,9 +16,21 @@
 
 <nav>
     <div class="container">
-        <div class="logo">
-            <a href="<?php echo esc_url(home_url('/')); ?>" style="text-decoration:none;color:inherit;">JC SEO Consulting</a>
-        </div>
+        <a href="<?php echo esc_url(home_url('/')); ?>" style="text-decoration:none;">
+            <div class="logo-stack">
+                <div class="logo-row">
+                    <span class="logo-jc">JC</span>
+                    <svg class="logo-sprig" viewBox="0 0 40 60" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 55 Q 19 30 20 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <path d="M20 45 Q 14 42 8 38" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                        <path d="M20 45 Q 26 42 32 38" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                        <path d="M20 30 Q 15 27 10 23" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                        <path d="M20 30 Q 25 27 30 23" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <span class="logo-caps">CONSULTING</span>
+            </div>
+        </a>
         <ul>
             <li><a href="<?php echo esc_url(home_url('/#about')); ?>">About</a></li>
             <li><a href="<?php echo esc_url(home_url('/#services')); ?>">Services</a></li>
@@ -35,7 +47,7 @@
 </main>
 
 <footer>
-    <p>&copy; 2026 JC SEO Consulting. All rights reserved.</p>
+    <p>&copy; 2026 JC Consulting. All rights reserved.</p>
 </footer>
 
 <?php wp_footer(); ?>
