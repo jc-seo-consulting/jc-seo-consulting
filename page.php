@@ -32,7 +32,7 @@
             </div>
         </a>
         <ul>
-            <li><a href="<?php echo esc_url(home_url('/#about')); ?>">About</a></li>
+            <li><a href="<?php echo esc_url(home_url('/about/')); ?>">About</a></li>
             <li><a href="<?php echo esc_url(home_url('/#services')); ?>">Services</a></li>
             <li><a href="<?php echo esc_url(home_url('/#results')); ?>">Results</a></li>
             <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a></li>
