@@ -62,11 +62,39 @@ nav .container {
     align-items: center;
 }
 
-nav .logo {
+.logo-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logo-row {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.logo-jc {
     font-family: var(--font-display);
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
     color: var(--ink);
+    line-height: 1;
+}
+
+.logo-sprig {
+    width: 13px;
+    height: 26px;
+    color: var(--sage);
+    flex-shrink: 0;
+    transform: rotate(20deg);
+}
+
+.logo-caps {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--sage);
+    font-weight: 600;
 }
 
 nav ul {
