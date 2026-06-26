@@ -225,16 +225,19 @@ nav a:hover {
 
 .get-to-know-link {
     display: inline-block;
-    margin-top: 4px;
-    margin-bottom: 24px;
-    font-size: 15px;
-    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 28px;
+    font-size: 17px;
+    font-weight: 700;
     color: var(--sage);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--sage);
+    text-underline-offset: 4px;
 }
 
 .get-to-know-link:hover {
     color: var(--sage-dark);
+    text-decoration-color: var(--sage-dark);
 }
 
 .about-footer-row {
@@ -245,8 +248,8 @@ nav a:hover {
     width: 36px;
     height: 36px;
     border-radius: 4px;
-    border: 1px solid var(--sand);
-    color: var(--sand);
+    border: 1px solid var(--sage);
+    color: var(--sage);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,12 +257,12 @@ nav a:hover {
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    transition: border-color 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
 }
 
 .linkedin-icon:hover {
-    border-color: var(--sage);
-    color: var(--sage);
+    background: var(--sage);
+    color: var(--paper);
 }
 
 /* Services Section */
