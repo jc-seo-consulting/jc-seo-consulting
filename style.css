@@ -223,21 +223,43 @@ nav a:hover {
     line-height: 1.7;
 }
 
-.linkedin-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: #0077b5;
-    color: white;
-    padding: 14px 30px;
-    border-radius: 4px;
-    text-decoration: none;
+.get-to-know-link {
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 24px;
     font-size: 15px;
-    transition: background 0.3s;
+    font-weight: 600;
+    color: var(--sage);
+    text-decoration: none;
 }
 
-.linkedin-btn:hover {
-    background: #006399;
+.get-to-know-link:hover {
+    color: var(--sage-dark);
+}
+
+.about-footer-row {
+    display: flex;
+}
+
+.linkedin-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid var(--sand);
+    color: var(--sand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.linkedin-icon:hover {
+    border-color: var(--sage);
+    color: var(--sage);
 }
 
 /* Services Section */
